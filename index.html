@@ -29,20 +29,18 @@
     
 </body>
 <script>
-    alert("Hello Birds Lovers");
-    var number = 3;
-    var birds = "3Birds";
-    var correct = true; 
-    var notcorrect = false;
-    if (number >= 5){
-        alert (number);
-    } else {
-        alert("The number is less than or equal 5")
-    }
-    if (birds == "3Birds"){
-        alert ("Yes birds is 3Birds")
-    } else {
-        alert ("No,it is not.")
-    }
+alert("Hello World");
+var namepromet=prompt("What is your name?");
+    alert("Hello " + namepromet);
+var birds=prompt("are you love birds?");
+birdslove(birds);
+function birdslove(birds){
+    if (birds == 'yes'){
+        alert ("welcome in your website");
+    }if (birds == 'no'){
+        alert ("stay with us to become birds lovers");
+    }   
+}
+
 </script>
 </html>
